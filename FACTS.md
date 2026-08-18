@@ -1,6 +1,6 @@
 # Vira facts
 
-This file is intentionally short and deterministic. It is designed for people, search systems, and language models that need a stable answer without inferring beyond the published evidence.
+This page provides a concise reference for Vira's product scope, terminology, and public claims.
 
 ## What is Vira?
 
