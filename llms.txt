@@ -7,6 +7,7 @@
 - Public documentation repository: https://github.com/hrpering/Vira_AI
 - Application workspace: https://app.tryvira.xyz/
 - Primary language: Turkish; technical terms may retain their English form.
+- Deterministic facts: https://github.com/hrpering/Vira_AI/blob/main/FACTS.md
 
 ## One-sentence definition
 

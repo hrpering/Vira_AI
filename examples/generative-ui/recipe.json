@@ -1,9 +1,27 @@
 {
   "type": "generative-ui",
   "version": "0.1",
+  "id": "recipe-demo-001",
   "template": "recipe",
   "title": "15 dakikalık mercimek çorbası",
-  "inputs": {"servings": 4, "diet": "vegan"},
-  "sections": ["ingredients", "steps", "shopping-list"],
-  "actions": ["check-step", "export-shopping-list"]
+  "data": {
+    "servings": 4,
+    "diet": "vegan",
+    "ingredients": [
+      {"name": "kırmızı mercimek", "amount": "250 g"},
+      {"name": "soğan", "amount": "1 adet"},
+      {"name": "havuç", "amount": "1 adet"}
+    ],
+    "steps": [
+      {"id": "s1", "label": "Sebzeleri doğra", "status": "ready"},
+      {"id": "s2", "label": "Mercimeği ve suyu ekle", "status": "ready"},
+      {"id": "s3", "label": "20 dakika pişir ve blenderdan geçir", "status": "ready"}
+    ]
+  },
+  "state": {"status": "ready", "completed_steps": []},
+  "actions": [
+    {"id": "check-step", "label": "Adımı tamamla", "requires_confirmation": false},
+    {"id": "export-shopping-list", "label": "Alışveriş listesini dışa aktar", "requires_confirmation": true, "output": "text/markdown"}
+  ],
+  "provenance": {"source": "model-generated", "prompt_ref": "prompt:recipe-demo-001", "sources": []}
 }

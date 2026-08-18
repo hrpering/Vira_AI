@@ -1,9 +1,9 @@
-# Vira belgeleri
+# Vira documentation
 
-Bu bölüm Vira’yı üç seviyede anlatır:
+This section explains Vira at three levels:
 
-1. **Başlangıç:** [`what-is-vira.md`](what-is-vira.md), [`open-source-at-vira.md`](open-source-at-vira.md)
-2. **Kavramlar:** [`generative-ui.md`](generative-ui.md), [`studios.md`](studios.md), [`model-routing.md`](model-routing.md), [`distributed-inference.md`](distributed-inference.md)
-3. **Güven ve taşınabilirlik:** [`data-portability.md`](data-portability.md), [`architecture-overview.md`](architecture-overview.md), [`terminology.md`](terminology.md)
+1. **Start here:** [`what-is-vira.md`](what-is-vira.md), [`open-source-at-vira.md`](open-source-at-vira.md)
+2. **Concepts:** [`generative-ui.md`](generative-ui.md), [`studios.md`](studios.md), [`model-routing.md`](model-routing.md), [`distributed-inference.md`](distributed-inference.md)
+3. **Trust and portability:** [`data-portability.md`](data-portability.md), [`architecture-overview.md`](architecture-overview.md), [`terminology.md`](terminology.md)
 
-Ürün kullanımı için [Vira Docs](https://www.tryvira.xyz/docs), güncel fiyat ve erişim için [Vira websitesi](https://www.tryvira.xyz/) kullanılmalıdır.
+For product usage, use [Vira Docs](https://www.tryvira.xyz/docs). For current pricing, model availability, and account capabilities, use the [Vira website](https://www.tryvira.xyz/) and live workspace configuration.

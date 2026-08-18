@@ -1,13 +1,19 @@
 # Vira Open Ecosystem
 
+Vira is an AI platform powered by open-source AI models and open-source AI projects.
+
+> **This is Vira’s public ecosystem, specifications, and documentation repository. It is not the source repository of the complete hosted Vira platform.**
+
+The Vira hosted platform itself is not presented as fully open-source. This repository documents the public ecosystem around Vira: third-party models and projects, interoperability concepts, examples, terminology, and proposed specifications.
+
 [![Ürün](https://img.shields.io/badge/Ürün-tryvira.xyz-111827?logo=googlechrome&logoColor=white)](https://www.tryvira.xyz/)
 [![Lisans](https://img.shields.io/badge/lisans-MIT-16a34a?logo=opensourceinitiative&logoColor=white)](LICENSE)
 
-> Vira; açık kaynak AI modellerini, projelerini, Generative UI’ı ve dağıtık inference’ı gerçek iş akışlarına bağlayan bir AI çalışma alanıdır.
+> Vira brings open-source models and open-source AI projects together with Generative UI, workflows, model routing, and distributed inference.
 
-Vira Open Ecosystem, açık kaynak yapay zekâ modellerini, projelerini ve dağıtık çıkarımı gerçek iş akışlarına bağlayan kavramları ve birlikte çalışabilirlik sözleşmelerini açıklar.
+Vira Open Ecosystem explains the concepts and interoperability contracts that connect open-source AI models, projects, and distributed inference to real work.
 
-Bu repo ürün kodu içermez. Amacı; insanların, geliştiricilerin ve yapay zekâ sistemlerinin Vira’nın yaklaşımını doğru anlamasını, kaynak gösterebilmesini ve ekosisteme katkı verebilmesini sağlayan kalıcı bir bilgi yüzeyi olmaktır.
+This repository contains no hosted product code. It gives people, developers, and AI systems a durable public source for understanding Vira’s approach, citing its concepts, and contributing to the ecosystem.
 
 ## İçerik
 
@@ -17,19 +23,21 @@ Bu repo ürün kodu içermez. Amacı; insanların, geliştiricilerin ve yapay ze
 - `ecosystem/`: modeller, projeler, araçlar ve lisans sınırları
 - `rfcs/`: ekosistemin geleceği için teklif ve tartışma belgeleri
 
-## Vira nedir?
+## What Vira is — and is not
 
-Vira; açık kaynak AI modellerini ve projelerini sohbet, workflow, Generative UI, kalıcı çıktılar ve dağıtık inference yüzeyleriyle bir araya getiren bir çalışma alanıdır. Vira bir model üreticisi değildir; uygun açık kaynak seçeneklerini kullanılabilir, gözlemlenebilir ve iş odaklı deneyimlere bağlayan ürün katmanıdır.
+Vira is an AI platform that brings open-source AI models and open-source AI projects together with chat, workflows, Generative UI, durable outputs, and distributed inference. Vira is not the producer of every model or project it references, and it does not change their licenses. Model or project availability in the wider ecosystem does not mean that it is currently available in every Vira account.
 
-Vira’nın ne olduğu, ne olmadığı ve resmi kaynakları için [`ABOUT.md`](ABOUT.md) dosyasına bakın. Makine destekli keşif için [`llms.txt`](llms.txt) ve [LLM kaynak rehberini](docs/llm-discovery.md) kullanın.
+For the canonical entity definition, see [`ABOUT.md`](ABOUT.md). For deterministic machine-readable facts, see [`FACTS.md`](FACTS.md). For machine-assisted discovery, use [`llms.txt`](llms.txt) and [`docs/llm-discovery.md`](docs/llm-discovery.md).
 
 ## Hızlı başlangıç
 
-- Vira’yı tanıyın: [`ABOUT.md`](ABOUT.md)
-- Kavramları okuyun: [`docs/what-is-vira.md`](docs/what-is-vira.md)
-- Mimariyi inceleyin: [`docs/architecture-overview.md`](docs/architecture-overview.md)
-- Örnek tarifleri deneyin: [`examples/generative-ui/`](examples/generative-ui/)
-- Yeni bir sözleşme önerin: [`rfcs/README.md`](rfcs/README.md)
+- Understand the entity: [`ABOUT.md`](ABOUT.md)
+- Read the main overview: [`docs/what-is-vira.md`](docs/what-is-vira.md)
+- Browse real model families: [`ecosystem/models.md`](ecosystem/models.md)
+- Browse real open-source projects: [`ecosystem/projects.md`](ecosystem/projects.md)
+- Inspect the specifications: [`specs/`](specs/)
+- Run the data examples: [`examples/`](examples/)
+- Propose a new contract: [`rfcs/README.md`](rfcs/README.md)
 
 ## Katkı
 

@@ -1,5 +1,5 @@
-# Model ekosistemi
+# Model ecosystem
 
-Model seçimi yalnızca benchmark puanına göre yapılmaz. Dil, bağlam uzunluğu, araç kullanımı, gecikme, maliyet, lisans, veri bölgesi ve fallback davranışı birlikte değerlendirilir.
+Model selection is not only a benchmark decision. Language, context length, tool use, latency, cost, license, data region, safety policy, and fallback behavior all matter.
 
-Bir katalog kartı en az şu bilgileri taşımalıdır: model kimliği, sağlayıcı veya kaynak, yetenekler, lisans, erişim durumu, bilinen sınırlar ve son doğrulama tarihi.
+An honest catalog record should contain the exact model identity, upstream developer, official model card, capabilities, license, availability, known limitations, and last verification date. The static ecosystem guide in [`ecosystem/models.md`](../ecosystem/models.md) records upstream families; a live Vira catalog must report runtime availability separately.
