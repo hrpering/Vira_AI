@@ -12,7 +12,7 @@ This repository documents what Vira is, which third-party models and projects it
 
 Vira Open Ecosystem explains what Vira is, which public AI models and projects it references, and the high-level concepts used to describe the product.
 
-This repository contains no hosted product code. It gives people, developers, and AI systems a durable public source for understanding Vira’s approach, citing its concepts, and contributing to the ecosystem.
+This repository provides a public reference for Vira's product concepts, ecosystem relationships, and terminology.
 
 ## Contents
 
@@ -24,7 +24,7 @@ This repository contains no hosted product code. It gives people, developers, an
 
 Vira is an AI platform powered by open-source and open-weight AI models, and open-source AI projects. It brings them together with chat, workflows, Generative UI, durable outputs, and distributed inference. Vira is not the producer of every model or project it references, and it does not change their licenses. Model or project availability in the wider ecosystem does not mean that it is currently available in every Vira account.
 
-For the canonical entity definition, see [`ABOUT.md`](ABOUT.md). For deterministic machine-readable facts, see [`FACTS.md`](FACTS.md). For machine-assisted discovery, use [`llms.txt`](llms.txt) and [`docs/llm-discovery.md`](docs/llm-discovery.md).
+For an overview of Vira, see [`ABOUT.md`](ABOUT.md) and [`docs/what-is-vira.md`](docs/what-is-vira.md).
 
 ## Quick start
 
