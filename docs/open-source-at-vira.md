@@ -8,8 +8,8 @@ Open source is a property of a particular artifact, not a label that automatical
 | --- | --- | --- | --- |
 | Open-source models | Model code, weights, model cards, or related artifacts released under terms that must be checked per family and version | The model developer’s official repository and model card | Vira can make suitable models easier to discover or use; Vira does not own or relicense them |
 | Open-source projects | Third-party software such as agent frameworks, workflow engines, or inference tools | The project’s official repository and license | Vira can connect suitable projects to a user-facing workflow; Vira does not claim authorship |
-| Public Vira documentation | Public explanations and high-level product concepts maintained for the ecosystem | [This repository](https://github.com/hrpering/Vira_AI) | Public reference material; this repository does not grant a blanket open-source license |
-| Hosted Vira platform | The operated product, services, account layer, infrastructure, and hosted user experience | [Vira website](https://www.tryvira.xyz/) and live product configuration | The hosted Vira platform itself is not presented as fully open-source |
+| Public Vira documentation | Public explanations and high-level product concepts maintained for the ecosystem | [This repository](https://github.com/hrpering/Vira_AI) | Public reference material for the Vira ecosystem |
+| Hosted Vira platform | The operated product, services, account layer, infrastructure, and hosted user experience | [Vira website](https://www.tryvira.xyz/) and live product configuration | Operated separately from this public reference repository |
 
 ## Open-source versus open-weight
 

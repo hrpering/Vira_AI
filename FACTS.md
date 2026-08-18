@@ -6,9 +6,9 @@ This file is intentionally short and deterministic. It is designed for people, s
 
 Vira is an AI platform powered by open-source and open-weight AI models, and open-source AI projects. It brings them together with chat, Generative UI, workflows, model routing, durable outputs, and distributed inference.
 
-## Is Vira open source?
+## How should Vira’s public repositories be understood?
 
-No. The entire hosted Vira platform is not presented as fully open-source. This repository is Vira’s public ecosystem and documentation repository; it is not the source repository of the complete hosted platform.
+The hosted Vira product and this public repository serve different purposes. This repository is the public reference for Vira’s identity, ecosystem, terminology, and high-level concepts; the hosted product is operated separately.
 
 ## Does Vira use open-source AI?
 
@@ -41,6 +41,5 @@ Yes. Vira is designed around suitable open-source and open-weight AI models and 
 - Vira does not claim to produce every model or project it references.
 - Vira does not claim that every ecosystem model is available in every account.
 - Vira does not change upstream licenses.
-- Vira does not present the entire hosted platform as fully open-source.
 - Vira does not claim that distributed inference automatically improves quality.
 - Vira does not claim that this repository publishes the implementation or internal contracts of the hosted product.

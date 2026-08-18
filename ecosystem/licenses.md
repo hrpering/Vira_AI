@@ -1,7 +1,5 @@
-# License and usage boundaries
+# Copyright and third-party terms
 
-This repository does not grant a blanket open-source license for its contents. Copyright and other rights remain with the respective rights holders unless a file states otherwise.
+Copyright © 2026 Vira. All rights reserved.
 
-GitHub users may view and fork the public repository under GitHub’s platform terms. That visibility does not automatically grant permission to reproduce, modify, redistribute, sublicense, or commercially exploit repository contents.
-
-Referenced models and projects remain subject to their own upstream licenses and usage policies. This repository does not change those terms or guarantee commercial use.
+This repository is published for documentation, reference, and interoperability awareness. No license is granted to reproduce, modify, redistribute, commercialize, or implement Vira's proprietary product architecture from these materials. Third-party projects and models remain subject to their respective upstream licenses.

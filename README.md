@@ -2,9 +2,9 @@
 
 Vira is an AI platform powered by open-source and open-weight AI models, and open-source AI projects.
 
-> **This is Vira’s public ecosystem and documentation repository. It is not the source repository of the complete hosted Vira platform.**
+> **This is Vira’s public ecosystem and documentation repository. The hosted Vira product is operated separately.**
 
-The Vira hosted platform itself is not presented as fully open-source. This repository documents what Vira is, which third-party models and projects it references, and the high-level concepts used to describe the product.
+This repository documents what Vira is, which third-party models and projects it references, and the high-level concepts used to describe the product.
 
 [![Product](https://img.shields.io/badge/Product-tryvira.xyz-111827?logo=googlechrome&logoColor=white)](https://www.tryvira.xyz/)
 
