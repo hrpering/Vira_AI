@@ -1,0 +1,10 @@
+name: Dokümantasyon önerisi
+description: Public ekosistem dokümanında düzeltme veya eksik konu bildir.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Sorun veya öneri
+      description: Hangi bilgi eksik, yanlış veya belirsiz?
+    validations:
+      required: true

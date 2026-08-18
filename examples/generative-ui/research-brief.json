@@ -1,0 +1,9 @@
+{
+  "type": "generative-ui",
+  "version": "0.1",
+  "template": "research-brief",
+  "title": "Konu araştırma özeti",
+  "sections": ["question", "findings", "counterpoints", "sources", "open-questions"],
+  "requirements": {"cite-sources": true, "show-uncertainty": true},
+  "actions": ["request-review", "save-output"]
+}

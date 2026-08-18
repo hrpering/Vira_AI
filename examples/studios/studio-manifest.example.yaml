@@ -1,0 +1,21 @@
+name: research-brief-studio
+version: 0.1.0
+kind: studio
+description: Kaynaklı bir araştırma özetini adım adım oluşturur.
+inputs:
+  - name: question
+    type: string
+    required: true
+steps:
+  - id: collect
+    label: Kaynakları topla
+  - id: synthesize
+    label: Bulguları sentezle
+  - id: review
+    label: Belirsizlikleri gözden geçir
+permissions:
+  network: read
+  write_output: user-confirmed
+outputs:
+  - type: research-brief
+    portable: true

@@ -1,0 +1,17 @@
+version: 0.1
+name: balanced-turkish-writing
+task:
+  language: tr
+  class: structured-writing
+constraints:
+  max_latency_ms: 8000
+  require_citations: false
+candidates:
+  - id: account-available-model
+    reason: Hesapta doğrulanmış ve Türkçe metin üretimine uygun.
+fallbacks:
+  - id: account-available-model
+    when: timeout-or-capacity
+disclosure:
+  show_selected_model: true
+  show_fallback: true

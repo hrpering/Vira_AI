@@ -1,0 +1,9 @@
+{
+  "type": "generative-ui",
+  "version": "0.1",
+  "template": "recipe",
+  "title": "15 dakikalık mercimek çorbası",
+  "inputs": {"servings": 4, "diet": "vegan"},
+  "sections": ["ingredients", "steps", "shopping-list"],
+  "actions": ["check-step", "export-shopping-list"]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "generative-ui",
+  "version": "0.1",
+  "template": "comparison",
+  "title": "İki seçenek karşılaştırması",
+  "columns": ["criteria", "option-a", "option-b", "evidence"],
+  "criteria": ["maliyet", "gizlilik", "kurulum", "taşınabilirlik"],
+  "actions": ["edit-criterion", "mark-preferred", "export"]
+}
