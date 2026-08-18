@@ -17,7 +17,6 @@ This repository contains no hosted product code. It gives people, developers, an
 ## Contents
 
 - `docs/`: Vira, Studios, Generative UI, routing, portability, and architecture guides
-- `specs/`: high-level product concepts and boundaries
 - `ecosystem/`: models, projects, tools, and upstream license boundaries
 - `rfcs/`: high-level proposals and discussion for the future of the ecosystem
 
@@ -33,7 +32,7 @@ For the canonical entity definition, see [`ABOUT.md`](ABOUT.md). For determinist
 - Read the main overview: [`docs/what-is-vira.md`](docs/what-is-vira.md)
 - Browse real model families: [`ecosystem/models.md`](ecosystem/models.md)
 - Browse real open-source projects: [`ecosystem/projects.md`](ecosystem/projects.md)
-- Read the Generative UI concept boundary: [`specs/generative-ui.md`](specs/generative-ui.md)
+- Read the Generative UI concept: [`docs/generative-ui.md`](docs/generative-ui.md)
 - Browse the ecosystem: [`ecosystem/`](ecosystem/)
 - Read public proposals: [`rfcs/README.md`](rfcs/README.md)
 

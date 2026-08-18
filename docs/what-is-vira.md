@@ -1,68 +1,49 @@
 # What is Vira?
 
-Vira is an AI platform powered by open-source and open-weight AI models, and open-source AI projects. It brings them together with Generative UI, workflows, model routing, durable outputs, and distributed inference so that a person can complete useful work without assembling every model, serving layer, interface, and storage decision from scratch.
+Vira is an AI platform powered by open-source and open-weight AI models, and open-source AI projects. It brings them together with Generative UI, workflows, durable outputs, and distributed inference so people can use AI for practical work without assembling every part of the experience themselves.
 
-Vira is a product and orchestration layer built around an ecosystem of models, projects, tools, and infrastructure. The model and project licenses remain upstream licenses. This public repository is Vira’s public entity and ecosystem reference, while the hosted product is operated separately.
+Vira is a product and orchestration layer around a wider ecosystem. Model families and software projects remain connected to their own developers, communities, licenses, and release terms. This repository is the public reference for Vira’s identity, ecosystem, terminology, and high-level concepts; the hosted product is operated separately.
 
-## Three layers, three jobs
+## Models provide capability
 
-The simplest way to understand Vira is to separate three jobs that are often collapsed into one marketing phrase.
+AI models provide capabilities such as language generation, summarization, reasoning, coding, vision, and transformation. The right choice depends on the exact release, task, language, context, policy, and use terms.
 
-```mermaid
-flowchart LR
-  Models[Open-source models\nIntelligence] --> Vira[Vira product layer\nRouting · UI · Workflows]
-  Projects[Open-source projects\nTask logic] --> Vira
-  Vira --> Work[Real work\nReviewable outputs]
-```
+Vira helps make suitable AI capabilities easier to use in a work setting. The model families listed in this repository are ecosystem references, not a live availability promise. Current access belongs to the live product and the applicable account configuration.
 
-### 1. Models provide intelligence
+## Open-source projects provide reusable approaches
 
-A model family such as Qwen, Gemma, or Llama provides a learned capability: language generation, summarization, reasoning, coding, vision, tool use, or another task depending on the exact release. A model name is not a complete deployment decision. The exact checkpoint, context length, license, language support, latency, cost, safety policy, and serving location still matter.
+Open-source AI projects provide software approaches for organizing work, coordinating tasks, serving models, or building agent experiences. Projects such as CrewAI, LangGraph, AutoGen, and vLLM represent different parts of that wider ecosystem.
 
-Vira can make model choice easier to use by exposing suitable options through a catalog or routing layer. It does not change the upstream model license, and an ecosystem reference is not evidence that a model is enabled for every Vira account. The live catalog and account configuration determine availability.
+Vira can make relevant projects easier to discover and use through a product experience. It does not replace the upstream project, its maintainers, its release process, or its license.
 
-### 2. Open-source projects provide reusable task logic
+## Vira provides the work experience
 
-An open-source project provides software structure around a task. CrewAI, for example, can coordinate role-based agents and collaborative flows. Other projects focus on graph-based state, multi-agent conversation, or inference serving. These projects answer a different question from a model: not “what knowledge or generation capability does the system have?” but “how can software organize the work?”
+Vira’s product layer is focused on turning AI capability into a useful working experience. Depending on the product surface, that can include chat, repeatable workflows, Studios, Generative UI, durable outputs, and distributed inference.
 
-Vira may connect suitable projects to a product surface such as Studios. That can reduce setup friction and make inputs, permissions, model choices, progress, review points, and outputs more visible. It does not make Vira the author of the upstream project. A project’s own repository, maintainers, license, and release notes remain authoritative.
+The value is the connection between intent and outcome: choosing an appropriate starting point, making the work understandable, helping a person review what matters, and preserving useful results. The exact product behavior changes over time and belongs to the hosted experience.
 
-### 3. Vira provides the work and control layer
+## Generative UI
 
-The Vira layer connects a request to an appropriate working surface. A request can start in chat, use a project context, route to an available model, become a structured Generative UI result, and remain as a durable Output or Project artifact. A Studio can expose a repeatable sequence rather than asking the user to describe the same process in every conversation.
+Generative UI is the idea that an AI response can become a task-oriented surface rather than remaining only a paragraph in chat. This can make planning, comparison, research, creation, and review easier to understand and reuse.
 
-This layer is about continuity and control. Users need to know what the system is doing, which model or fallback was selected when that information is available, what data a tool can access, where a review is required, and what remains after the model call. The product value is not simply a list of models or a one-click demo; it is the path from intent to a useful, inspectable result.
+The public concept does not prescribe a renderer, data format, action behavior, or compatibility promise. The product experience determines how this concept is realized.
 
-## Generative UI turns answers into work surfaces
+## Model routing and distributed inference
 
-Many tasks are not best represented as a paragraph. A recipe has ingredients and steps. A comparison has criteria and evidence. A research brief has findings, counterpoints, sources, and open questions. Generative UI lets a compatible response become an editable surface with actions, state, and an output boundary.
+Model routing is the product idea of connecting a task with a suitable available AI capability or serving surface. Distributed inference is the idea of using more than one serving location or capacity source when the product supports it.
 
-The distinction matters because a response that disappears into chat is difficult to review, reuse, or hand to another person. A structured surface can show which items are complete, which claims need evidence, which fields remain uncertain, and which result can be exported. The model still generates or transforms content, but the interface makes the work legible.
-
-## Routing and distributed inference
-
-Model routing chooses a suitable available model or serving surface for a task. The choice can consider language, context, capabilities, latency, cost, capacity, and data policy. Automatic routing should not hide important boundaries: a user may need to know why a model was selected, when a fallback occurred, or whether a request left a particular region.
-
-Distributed inference spreads serving capacity across nodes or serving surfaces. It can improve flexibility, resilience, or capacity, but it introduces operational questions about health, queueing, security, observability, placement, and fallback. Distributed does not automatically mean more accurate. Vira’s public language should describe those tradeoffs rather than turning infrastructure into an unqualified quality promise.
+These concepts involve practical considerations such as capability, policy, availability, data handling, resilience, and cost. Vira’s public materials describe the user-facing idea; they do not publish private decision rules or infrastructure details.
 
 ## Openness and ownership
 
-Vira uses open-source and open-weight AI models, and open-source AI projects. That ecosystem includes releases with different licenses and usage policies: some are open-weight, some have separate code and model terms, and some impose additional conditions. The exact upstream source must be checked before distribution or commercial use.
+Vira uses open-source and open-weight AI models, and open-source AI projects. These labels are not interchangeable, and each exact model or project must be evaluated through its upstream source. Different releases may use different licenses, access terms, and usage policies.
 
-The public ecosystem repository exists to make these distinctions easy to inspect. It publishes entity references, terminology, and high-level product concepts. It deliberately avoids private application code, secrets, user data, internal schemas, routing policies, and unsupported claims about availability.
+The public ecosystem repository makes those distinctions easier to inspect. It publishes entity references, upstream links, terminology, and high-level product concepts. It does not publish the private implementation of the hosted product.
 
-## A practical evaluation checklist
+## A practical way to evaluate Vira
 
-Before choosing a Vira path, ask:
-
-1. What exact model or project will run, and who maintains it?
-2. What license and use policy applies to that exact release?
-3. Which data, tools, and permissions can the workflow access?
-4. What happens when routing, capacity, or a tool fails?
-5. Where does the result live, and can the user export or reuse it?
-
-These questions keep the model, project, platform, and application layers distinct. They also make “open” useful as an operational property instead of a vague product label.
+When evaluating Vira, consider the model or project, its upstream terms, the product surface, the current availability, and the work outcome. For live pricing, access, integrations, and product behavior, use the [Vira website](https://www.tryvira.xyz/) and [Vira Docs](https://www.tryvira.xyz/docs).
 
 ## In one sentence
 
-Vira is a product layer that helps people use suitable open-source and open-weight AI models and open-source AI projects in chat, workflows, Generative UI, and distributed inference while keeping model ownership, project licensing, availability, data boundaries, and durable outputs visible.
+Vira is a product layer that helps people use suitable open-source and open-weight AI models and open-source AI projects in practical work through chat, workflows, Generative UI, durable outputs, and distributed inference.

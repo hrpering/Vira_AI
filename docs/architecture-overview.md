@@ -1,29 +1,13 @@
-# Architecture overview
+# Product architecture overview
 
-Vira can be understood as a chain rather than a single model call:
+Vira brings together AI models, open-source projects, and a hosted work experience. The public ecosystem can explain these roles without describing the private implementation behind them.
 
-`request → context → model/project selection → routing → work surface → review → durable output`
+Models provide capabilities. Open-source projects provide reusable software approaches. Vira connects suitable options to product surfaces such as chat, workflows, Studios, Generative UI, and durable outputs.
 
-The model layer generates or transforms content. A Studio or workflow layer manages observable steps. Generative UI turns a structured result into a task-specific surface. Projects and Outputs preserve context and durable artifacts. Distributed inference provides serving capacity and placement options.
+The experience is designed around useful work rather than a model demo: a person starts with an intention, works with an appropriate AI capability, reviews the result, and keeps the outcome when the product supports that path.
 
-```mermaid
-flowchart TD
-  Request[Request] --> Context[Context]
-  Context --> Model[Model capability]
-  Context --> Project[Open-source project logic]
-  Model --> Routing[Routing and serving]
-  Project --> Routing
-  Routing --> Work[Chat, Studio, or Generative UI]
-  Work --> Review[Human review]
-  Review --> Output[Durable Output or Project artifact]
-```
+## Public boundary
 
-Each boundary answers a different question: what can generate, what can orchestrate, what can access data, what can be reviewed, and what remains after the run. Keeping those boundaries visible prevents a model name from being mistaken for the entire product or a project license from being mistaken for the hosted platform’s license.
+This page is a conceptual overview for customers, developers, and ecosystem partners. It does not define application internals, service topology, data structures, operational rules, provider relationships, or implementation commitments.
 
-## Reference flow
-
-1. A user expresses a task and supplies context.
-2. The system filters candidates by capability, policy, availability, and data constraints.
-3. Routing selects a model or serving surface and records fallback conditions.
-4. A chat, Studio, or Generative UI surface exposes progress and review points.
-5. The result becomes an Output, Project artifact, export, or an explicit failure.
+For current product behavior, availability, pricing, and integrations, use the [Vira website](https://www.tryvira.xyz/) and [Vira Docs](https://www.tryvira.xyz/docs).

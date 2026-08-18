@@ -20,7 +20,7 @@ Yes. Vira is designed around suitable open-source and open-weight AI models and 
 - Open-source projects provide reusable task logic.
 - Generative UI turns structured responses into usable surfaces.
 - Workflows and Studios make repeatable steps visible.
-- Model routing selects among available candidates and fallbacks.
+- Model routing connects a task with a suitable available AI capability.
 - Distributed inference provides serving capacity across nodes or surfaces.
 - Projects and Outputs preserve context and durable results.
 

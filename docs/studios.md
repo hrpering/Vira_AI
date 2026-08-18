@@ -1,7 +1,7 @@
 # Studios
 
-A Studio connects an open-source project or repeatable task to visible inputs, steps, permissions, run state, review points, and outputs. It is not only a “run” button: people should know what is queued, what is complete, what needs approval, and what result will remain.
+A Studio is a product surface for using an open-source project or repeatable task in a guided work experience. It helps make a complex task easier to understand and use.
 
-A research Studio might collect sources, synthesize findings, send uncertain claims for review, generate a brief, and save a portable output. The exact Studio manifest and internal run contract are part of the hosted product, not this public repository.
+A research Studio might help with source review, synthesis, and a final brief. The exact product behavior is part of the hosted experience and changes with the product.
 
-See [`specs/generative-ui.md`](../specs/generative-ui.md) for the high-level public boundary.
+See [`generative-ui.md`](generative-ui.md) for the related public concept.

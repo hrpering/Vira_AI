@@ -2,4 +2,4 @@
 
 **Status:** Discussion
 
-This RFC records the product goal of making distributed inference understandable to users when disclosure is appropriate. It does not define node advertisements, capacity signals, fallback rules, region logic, or an inference protocol.
+This RFC records the product goal of making distributed inference understandable to users when relevant. It is a discussion note, not an infrastructure or protocol specification.

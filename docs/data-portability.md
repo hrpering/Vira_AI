@@ -1,7 +1,7 @@
 # Data portability
 
-User work should not be trapped in one chat screen. Context, decisions, prompts, structured outputs, provenance, and metadata should be exportable where policy allows and reusable in another compatible workflow.
+Useful work should not be trapped in one chat screen. Where the product supports it, people should be able to preserve and reuse meaningful context and results.
 
-Portability has several dimensions: format, ownership, permission, deletion, retention, and references to external artifacts. An export that contains a paragraph but loses its sources, review state, or decision history is only partial portability.
+Portability is a product principle about continuity, ownership, and reuse. The quality of a portable result depends on what context remains useful to the person receiving it.
 
-Vira’s public position is that portability should preserve useful context without exposing secrets or silently executing imported instructions. The exact context format and import behavior are hosted-product details and are not specified in this repository.
+Vira’s public position is that portability should preserve useful work while respecting user control and data boundaries. The product determines the supported formats and behaviors.

@@ -1,7 +1,5 @@
 # Distributed inference
 
-Distributed inference spreads model-serving capacity across more than one node or serving surface. It can improve capacity, resilience, and placement flexibility, but it also adds operational responsibilities: health, queueing, routing, security, observability, licensing, and data location.
+Distributed inference means using more than one serving location or capacity source for AI workloads. It can support resilience and placement flexibility, while introducing practical questions about reliability, policy, data handling, and operations.
 
-Distributed does not automatically mean more accurate. A trustworthy surface should disclose relevant latency, fallback, serving location, and failure behavior without exposing sensitive infrastructure details. A node should advertise only capabilities and capacity it can actually verify.
-
-This repository intentionally does not publish a node protocol, node advertisement schema, heartbeat format, lease model, capacity formula, or internal serving contract.
+Distributed does not automatically mean more accurate. The public concept is about serving flexibility, not a quality guarantee. Current product behavior belongs to the hosted Vira experience.

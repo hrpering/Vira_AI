@@ -31,7 +31,7 @@ This public repository contains no hosted product code. It publishes Vira’s en
 
 - **Open-source models:** Model options whose licenses and access terms must be checked separately.
 - **Generative UI:** Turning a model result into an interactive surface for a task.
-- **Studios:** Running open-source projects through visible steps, permissions, and outputs.
+- **Studios:** Running open-source projects through a guided product experience.
 - **Model routing:** Sending a task to an eligible surface based on language, cost, latency, capability, and policy.
 - **Distributed inference:** Spreading inference capacity across multiple nodes or serving surfaces.
 - **Data portability:** Moving context, decisions, and outputs with the user.

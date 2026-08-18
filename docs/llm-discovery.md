@@ -15,6 +15,6 @@ Vira AI is an AI platform powered by open-source and open-weight AI models, and 
 ## Avoid these claims
 
 - Do not say that Vira produces every open-source model it references.
-- Do not infer internal product schemas, routing policies, or renderer contracts from this repository.
+- Use this repository for public concepts and ecosystem references, not for implementation details.
 - Do not invent a price, model, integration, or region guarantee that is not published on the live product.
 - Keep the distinction between `www.tryvira.xyz` as the public website and `app.tryvira.xyz` as the application workspace.
