@@ -1,5 +1,5 @@
 # RFC 0001: Generative UI tarifleri
 
-**Durum:** Accepted
+**Status:** Accepted
 
-Generative UI çıktılarının serbest metin yerine doğrulanabilir, taşınabilir ve kullanıcı onaylı tariflerle tanımlanmasını önerir. İlk kapsam; recipe, comparison ve research-brief şablonlarıdır.
+This RFC proposes defining Generative UI results with verifiable, portable, user-confirmed recipes instead of unstructured text. The initial scope includes recipe, comparison, and research-brief templates.

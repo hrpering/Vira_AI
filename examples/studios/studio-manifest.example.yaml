@@ -1,18 +1,18 @@
 name: research-brief-studio
 version: 0.1.0
 kind: studio
-description: Kaynaklı bir araştırma özetini adım adım oluşturur.
+description: Creates a source-aware research brief through observable steps.
 inputs:
   - name: question
     type: string
     required: true
 steps:
   - id: collect
-    label: Kaynakları topla
+    label: Collect sources
   - id: synthesize
-    label: Bulguları sentezle
+    label: Synthesize findings
   - id: review
-    label: Belirsizlikleri gözden geçir
+    label: Review uncertainty and citations
 permissions:
   network: read
   write_output: user-confirmed

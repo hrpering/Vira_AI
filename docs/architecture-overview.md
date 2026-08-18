@@ -6,6 +6,18 @@ Vira can be understood as a chain rather than a single model call:
 
 The model layer generates or transforms content. A Studio or workflow layer manages observable steps. Generative UI turns a structured result into a task-specific surface. Projects and Outputs preserve context and durable artifacts. Distributed inference provides serving capacity and placement options.
 
+```mermaid
+flowchart TD
+  Request[Request] --> Context[Context]
+  Context --> Model[Model capability]
+  Context --> Project[Open-source project logic]
+  Model --> Routing[Routing and serving]
+  Project --> Routing
+  Routing --> Work[Chat, Studio, or Generative UI]
+  Work --> Review[Human review]
+  Review --> Output[Durable Output or Project artifact]
+```
+
 Each boundary answers a different question: what can generate, what can orchestrate, what can access data, what can be reviewed, and what remains after the run. Keeping those boundaries visible prevents a model name from being mistaken for the entire product or a project license from being mistaken for the hosted platform’s license.
 
 ## Reference flow

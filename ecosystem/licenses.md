@@ -1,3 +1,3 @@
-# Lisanslar
+# Licenses
 
-Bu repository’deki doküman ve örnekler MIT lisansıyla paylaşılır. Ekosistemde anılan model ve projeler kendi lisanslarına tabidir; bu repo onların lisansını değiştirmez veya ticari kullanım garantisi vermez.
+Documentation and examples in this repository are shared under the MIT License. Referenced models and projects remain subject to their own licenses; this repository does not change them or guarantee commercial use.

@@ -1,11 +1,11 @@
-# Katkı Rehberi
+# Contributing Guide
 
-Vira Open Ecosystem, açık ve anlaşılır teknik dokümantasyonla büyür.
+The Vira Open Ecosystem grows through clear, accessible technical documentation.
 
-1. Önce ilgili issue veya RFC tartışmasını okuyun.
-2. Dokümanı Türkçe, terimleri gerektiğinde İngilizce karşılığıyla yazın.
-3. Gerçek olmayan bir entegrasyonu, model erişimini veya garanti edilmiş davranışı varmış gibi anlatmayın.
-4. Değişikliğin kapsamını, kaynaklarını ve kullanıcı etkisini pull request açıklamasında belirtin.
-5. Yeni protokol davranışları için `rfcs/` altında teklif açın; geriye dönük uyumluluk ve güvenlik etkisini açıklayın.
+1. Read the relevant issue or RFC discussion first.
+2. Write the primary content in English and keep technical terms precise.
+3. Do not present an unverified integration, model availability, or behavior guarantee as fact.
+4. Describe scope, sources, and user impact in the pull request.
+5. Propose new protocol behavior under `rfcs/` and explain compatibility and security impact.
 
-Kod, gizli anahtar, kişisel veri veya private altyapı ayrıntısı göndermeyin.
+Do not submit code, secrets, personal data, or private infrastructure details.

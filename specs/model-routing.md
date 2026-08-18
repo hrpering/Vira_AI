@@ -18,6 +18,19 @@ A policy contains `version`, `task`, `constraints`, `preferences`, `candidates`,
 
 `received → filtered → ranked → selected → executed → completed|fallback|failed`. Hard policy filters run before ranking. A fallback event records the previous candidate, trigger, next candidate, and user-visible disclosure where safe.
 
+```mermaid
+stateDiagram-v2
+  [*] --> Received
+  Received --> Filtered
+  Filtered --> Ranked
+  Ranked --> Selected
+  Selected --> Executed
+  Executed --> Completed
+  Executed --> Fallback
+  Fallback --> Executed
+  Executed --> Failed
+```
+
 ## Example
 
 See [`examples/routing/routing-policy.example.yaml`](../examples/routing/routing-policy.example.yaml).

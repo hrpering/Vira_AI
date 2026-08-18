@@ -3,25 +3,25 @@
   "version": "0.1",
   "id": "recipe-demo-001",
   "template": "recipe",
-  "title": "15 dakikalık mercimek çorbası",
+  "title": "15-minute lentil soup",
   "data": {
     "servings": 4,
     "diet": "vegan",
     "ingredients": [
-      {"name": "kırmızı mercimek", "amount": "250 g"},
-      {"name": "soğan", "amount": "1 adet"},
-      {"name": "havuç", "amount": "1 adet"}
+      {"name": "red lentils", "amount": "250 g"},
+      {"name": "onion", "amount": "1 piece"},
+      {"name": "carrot", "amount": "1 piece"}
     ],
     "steps": [
-      {"id": "s1", "label": "Sebzeleri doğra", "status": "ready"},
-      {"id": "s2", "label": "Mercimeği ve suyu ekle", "status": "ready"},
-      {"id": "s3", "label": "20 dakika pişir ve blenderdan geçir", "status": "ready"}
+      {"id": "s1", "label": "Chop the vegetables", "status": "ready"},
+      {"id": "s2", "label": "Add lentils and water", "status": "ready"},
+      {"id": "s3", "label": "Cook for 20 minutes and blend", "status": "ready"}
     ]
   },
   "state": {"status": "ready", "completed_steps": []},
   "actions": [
-    {"id": "check-step", "label": "Adımı tamamla", "requires_confirmation": false},
-    {"id": "export-shopping-list", "label": "Alışveriş listesini dışa aktar", "requires_confirmation": true, "output": "text/markdown"}
+    {"id": "check-step", "label": "Complete step", "requires_confirmation": false},
+    {"id": "export-shopping-list", "label": "Export shopping list", "requires_confirmation": true, "output": "text/markdown"}
   ],
   "provenance": {"source": "model-generated", "prompt_ref": "prompt:recipe-demo-001", "sources": []}
 }

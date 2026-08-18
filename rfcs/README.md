@@ -1,5 +1,5 @@
-# RFC süreci
+# RFC process
 
-RFC, ekosistemin birlikte çalışabilirliğini veya kamusal açıklamasını etkileyen bir öneridir. Öneri; problem, hedef, kapsam dışı konular, veri modeli, güvenlik, lisans, geriye dönük uyumluluk ve açık soruları içermelidir.
+An RFC is a proposal that affects ecosystem interoperability or public semantics. A proposal should include the problem, goals, non-goals, data model, security, licensing, backward compatibility, and open questions.
 
-Durumlar: `Draft`, `Discussion`, `Accepted`, `Rejected`, `Superseded`.
+Statuses: `Draft`, `Discussion`, `Accepted`, `Rejected`, `Superseded`.

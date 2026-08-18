@@ -3,20 +3,20 @@
   "version": "0.1",
   "id": "comparison-demo-001",
   "template": "comparison",
-  "title": "İki seçenek karşılaştırması",
+  "title": "Two-option comparison",
   "data": {
     "columns": ["criteria", "option-a", "option-b", "evidence"],
     "rows": [
-      {"criteria": "maliyet", "option-a": "düşük", "option-b": "orta", "evidence": []},
-      {"criteria": "gizlilik", "option-a": "bölgesel kontrol", "option-b": "sağlayıcı politikası", "evidence": []},
-      {"criteria": "kurulum", "option-a": "platform", "option-b": "self-hosted", "evidence": []}
+      {"criteria": "cost", "option-a": "low", "option-b": "medium", "evidence": []},
+      {"criteria": "privacy", "option-a": "regional control", "option-b": "provider policy", "evidence": []},
+      {"criteria": "setup", "option-a": "platform", "option-b": "self-hosted", "evidence": []}
     ]
   },
   "state": {"status": "review", "preferred": null},
   "actions": [
-    {"id": "edit-criterion", "label": "Ölçütü düzenle", "requires_confirmation": false},
-    {"id": "mark-preferred", "label": "Tercihi işaretle", "requires_confirmation": false},
-    {"id": "export", "label": "Karşılaştırmayı dışa aktar", "requires_confirmation": true, "output": "text/markdown"}
+    {"id": "edit-criterion", "label": "Edit criterion", "requires_confirmation": false},
+    {"id": "mark-preferred", "label": "Mark preferred", "requires_confirmation": false},
+    {"id": "export", "label": "Export comparison", "requires_confirmation": true, "output": "text/markdown"}
   ],
   "provenance": {"source": "model-generated", "prompt_ref": "prompt:comparison-demo-001", "sources": []}
 }

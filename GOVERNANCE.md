@@ -1,5 +1,5 @@
-# Yönetişim
+# Governance
 
-Repository sahibi dokümantasyonun tutarlılığını, lisans uyumunu ve public repo sınırlarını korur. Yeni teknik sözleşmeler RFC sürecinden geçer.
+The repository owner maintains documentation consistency, license compliance, and public-repository boundaries. New technical contracts go through the RFC process.
 
-Kararlar; kullanıcı yararı, açıklık, taşınabilirlik, güvenlik, lisans uyumu ve geriye dönük uyumluluk ölçütleriyle değerlendirilir. Kabul edilen bir RFC, ilgili spesifikasyona dönüştürülmeden ürün davranışı taahhüdü sayılmaz.
+Decisions are evaluated against user benefit, clarity, portability, security, license compliance, and backward compatibility. An accepted RFC is not a product behavior commitment until it is reflected in a relevant specification.

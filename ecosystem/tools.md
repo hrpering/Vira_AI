@@ -1,3 +1,3 @@
-# Araçlar
+# Tools
 
-Araçlar web araması, dosya analizi, export veya başka bir dış etkileşim sağlayabilir. Her araç için veri erişimi, yazma yetkisi, kullanıcı onayı, hata davranışı ve gözlemlenebilirlik bilgisi açıklanmalıdır.
+Tools may provide web search, file analysis, export, or another external interaction. Each tool record should explain data access, write authority, user confirmation, failure behavior, and observability.

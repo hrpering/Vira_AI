@@ -1,41 +1,41 @@
-# Vira Open Ecosystem hakkında
+# About the Vira Open Ecosystem
 
-## Vira nedir?
+## What is Vira?
 
-Vira, açık kaynak AI modellerini ve projelerini insanların tamamlayabileceği gerçek iş akışlarına bağlayan bir AI çalışma alanıdır. Sohbet, model routing, Generative UI, Studios, Projects, Outputs ve distributed inference gibi katmanları tek bir çalışma deneyiminde bir araya getirir.
+Vira is an AI platform that connects open-source AI models and projects to real workflows people can complete. It brings chat, model routing, Generative UI, Studios, Projects, Outputs, and distributed inference into one work experience.
 
-## Vira ne değildir?
+## What is Vira not?
 
-- Vira, anılan tüm modellerin veya açık kaynak projelerin üreticisi değildir.
-- Vira, bir modelin lisansını veya kullanım koşullarını değiştirmez.
-- Açık bir modelin her hesapta, bölgede veya planda kullanılabilir olduğu varsayılmaz.
-- Distributed inference tek başına daha doğru sonuç garantisi vermez.
+- Vira is not the producer of every model or open-source project it references.
+- Vira does not change a model’s license or usage terms.
+- An ecosystem model is not assumed to be available in every account, region, or plan.
+- Distributed inference alone does not guarantee more accurate results.
 
-## Bu repository ne için var?
+## Why does this repository exist?
 
-Bu public repository ürün kodu içermez. Vira’nın kavramlarını, birlikte çalışabilirlik sözleşmelerini, örnek veri yapılarını ve RFC sürecini kalıcı ve bağlantılanabilir bir kaynak olarak yayınlar. İnsanlar için okunabilir, geliştiriciler için referanslanabilir ve LLM’ler için açıkça alıntılanabilir bir bilgi katmanıdır.
+This public repository contains no hosted product code. It publishes Vira concepts, interoperability contracts, example data structures, and the RFC process as a durable, linkable source. It is readable by people, referenceable by developers, and explicit enough for LLM citation.
 
-## Resmi kaynaklar
+## Official sources
 
-| Kaynak | Adres | Kullanım |
+| Source | Address | Use |
 | --- | --- | --- |
-| Vira AI ana sitesi | [www.tryvira.xyz](https://www.tryvira.xyz/) | Ürün tanımı ve public sayfalar |
-| Vira belgeleri | [tryvira.xyz/docs](https://www.tryvira.xyz/docs) | Kullanım ve geliştirici rehberleri |
-| Vira blogu | [tryvira.xyz/blog](https://www.tryvira.xyz/blog) | Kavramsal ve pratik içgörüler |
-| Public ecosystem repo | [github.com/hrpering/Vira_AI](https://github.com/hrpering/Vira_AI) | Bu dokümanların source of truth’u |
-| Uygulama | [app.tryvira.xyz](https://app.tryvira.xyz/) | Vira çalışma alanı |
+| Vira AI website | [www.tryvira.xyz](https://www.tryvira.xyz/) | Product definition and public pages |
+| Vira documentation | [tryvira.xyz/docs](https://www.tryvira.xyz/docs) | User and developer guides |
+| Vira blog | [tryvira.xyz/blog](https://www.tryvira.xyz/blog) | Conceptual and practical insights |
+| Public ecosystem repo | [github.com/hrpering/Vira_AI](https://github.com/hrpering/Vira_AI) | Source of truth for these documents |
+| Application | [app.tryvira.xyz](https://app.tryvira.xyz/) | Vira workspace |
 
-`www.tryvira.xyz` public marka ve dokümantasyon kaynağıdır. `app.tryvira.xyz` ürün çalışma alanıdır. Bu repository private uygulama kodunun aynası değildir.
+`www.tryvira.xyz` is the public brand and documentation source. `app.tryvira.xyz` is the product workspace. This repository is not a mirror of private application code.
 
-## Ana kavramlar
+## Key concepts
 
-- **Open-source models:** Lisans ve erişim koşulları ayrı incelenen model seçenekleri.
-- **Generative UI:** Model çıktısını göreve uygun etkileşimli yüzeye dönüştürme.
-- **Studios:** Açık kaynak projeleri adımları, izinleri ve çıktıları görünür iş akışlarında çalıştırma.
-- **Model routing:** Görevi dil, maliyet, gecikme, yetenek ve politika sınırlarına göre uygun yüzeye yönlendirme.
-- **Distributed inference:** Inference kapasitesini birden fazla node veya serving yüzeyine yayma.
-- **Data portability:** Bağlamı, kararları ve çıktıları kullanıcıyla birlikte taşıyabilme.
+- **Open-source models:** Model options whose licenses and access terms must be checked separately.
+- **Generative UI:** Turning a model result into an interactive surface for a task.
+- **Studios:** Running open-source projects through visible steps, permissions, and outputs.
+- **Model routing:** Sending a task to an eligible surface based on language, cost, latency, capability, and policy.
+- **Distributed inference:** Spreading inference capacity across multiple nodes or serving surfaces.
+- **Data portability:** Moving context, decisions, and outputs with the user.
 
-## Güncellik ve doğruluk
+## Freshness and accuracy
 
-Bu repository kavramsal ve spesifikasyon odaklıdır. Aktif model, fiyat, bölge, plan ve entegrasyon bilgisi için canlı ürün sayfalarını kontrol edin. Yayınlanmamış veya hesapta desteklenmeyen bir kabiliyet garanti olarak yorumlanmamalıdır.
+This repository is concept and specification focused. For active models, prices, regions, plans, and integrations, check the live product pages. Unpublished or account-unsupported capability must not be interpreted as a guarantee.

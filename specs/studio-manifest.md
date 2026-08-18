@@ -18,6 +18,19 @@ Required fields: `name`, `version`, `kind`, `description`, `inputs`, `steps`, `p
 
 `discovered → configured → queued → running → review|completed|failed|cancelled`. A run should expose step state and preserve an output reference. A manifest update must not silently change a running run’s permissions.
 
+```mermaid
+stateDiagram-v2
+  [*] --> Discovered
+  Discovered --> Configured
+  Configured --> Queued
+  Queued --> Running
+  Running --> Review
+  Review --> Running
+  Running --> Completed
+  Running --> Failed
+  Running --> Cancelled
+```
+
 ## Example
 
 See [`examples/studios/studio-manifest.example.yaml`](../examples/studios/studio-manifest.example.yaml).

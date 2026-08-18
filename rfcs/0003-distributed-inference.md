@@ -1,5 +1,5 @@
-# RFC 0003: Distributed inference açıklama yüzeyi
+# RFC 0003: Distributed inference disclosure surface
 
-**Durum:** Discussion
+**Status:** Discussion
 
-Dağıtık inference sırasında node kapasitesi, seçilen yüzey, fallback ve veri bölgesi bilgisinin kullanıcıya güvenli ve anlaşılır biçimde açıklanmasını önerir.
+This RFC proposes disclosing node capacity, selected serving surface, fallback, and data-region information in a safe and understandable way during distributed inference.

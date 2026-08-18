@@ -1,5 +1,5 @@
-# Güvenlik
+# Security
 
-Güvenlik açıklarını public issue olarak paylaşmayın. Etkilenen yüzey, yeniden üretim adımları ve mümkün olan en az hassas kanıtla `security@tryvira.xyz` adresine bildirin.
+Do not disclose vulnerabilities in a public issue. Report the affected surface, reproduction steps, and the minimum sensitive evidence to `security@tryvira.xyz`.
 
-Bu repo yalnızca dokümantasyon ve örnek veri içerir; secret, token, kullanıcı verisi veya üretim erişim bilgisi kabul edilmez.
+This repository contains documentation and example data only; secrets, tokens, user data, and production access information are not accepted.

@@ -3,9 +3,9 @@
   "version": "0.1",
   "id": "research-brief-demo-001",
   "template": "research-brief",
-  "title": "Konu araştırma özeti",
+  "title": "Research brief",
   "data": {
-    "question": "Açık kaynak model seçerken hangi ölçütler önemlidir?",
+    "question": "Which criteria matter when selecting an open-source model?",
     "findings": [],
     "counterpoints": [],
     "sources": [],
@@ -14,8 +14,8 @@
   "state": {"status": "draft", "review_required": true},
   "requirements": {"cite_sources": true, "show_uncertainty": true},
   "actions": [
-    {"id": "request-review", "label": "İnceleme iste", "requires_confirmation": false},
-    {"id": "save-output", "label": "Çıktıyı kaydet", "requires_confirmation": true, "output": "application/json"}
+    {"id": "request-review", "label": "Request review", "requires_confirmation": false},
+    {"id": "save-output", "label": "Save output", "requires_confirmation": true, "output": "application/json"}
   ],
   "provenance": {"source": "model-generated", "prompt_ref": "prompt:research-brief-demo-001", "sources": []}
 }

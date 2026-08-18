@@ -1,5 +1,5 @@
 # RFC 0002: Portable AI Context
 
-**Durum:** Discussion
+**Status:** Discussion
 
-Bir AI çalışmasının mesajlarını, kararlarını, kaynaklarını ve çıktısını başka bir Vira yüzeyine veya uyumlu istemciye taşıyabilmek için ortak context zarfı önerir.
+This RFC proposes a shared context envelope for moving an AI task’s messages, decisions, sources, and outputs to another Vira surface or compatible client.

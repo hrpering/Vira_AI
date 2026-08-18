@@ -1,5 +1,5 @@
-# Davranış Kuralları
+# Code of Conduct
 
-Katılımcılar saygılı, kapsayıcı ve teknik olarak dürüst davranmalıdır. Kişisel saldırı, taciz, ayrımcılık, kasıtlı yanlış yönlendirme ve güvenlik açığının kötüye kullanımı kabul edilmez.
+Participants must be respectful, inclusive, and technically honest. Personal attacks, harassment, discrimination, deliberate misrepresentation, and exploitation of security issues are not accepted.
 
-Sorunları repository sahiplerine özel olarak bildirin. İyi niyetli katkılar, soru soran kişiler ve farklı deneyim seviyeleri korunur.
+Report problems privately to the repository maintainers. Good-faith contributions, questions, and different levels of experience are welcome.

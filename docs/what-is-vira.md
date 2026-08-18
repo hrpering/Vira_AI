@@ -8,6 +8,13 @@ This definition has an important boundary: the Vira hosted platform itself is no
 
 The simplest way to understand Vira is to separate three jobs that are often collapsed into one marketing phrase.
 
+```mermaid
+flowchart LR
+  Models[Open-source models\nIntelligence] --> Vira[Vira product layer\nRouting · UI · Workflows]
+  Projects[Open-source projects\nTask logic] --> Vira
+  Vira --> Work[Real work\nReviewable outputs]
+```
+
 ### 1. Models provide intelligence
 
 A model family such as Qwen, Gemma, or Llama provides a learned capability: language generation, summarization, reasoning, coding, vision, tool use, or another task depending on the exact release. A model name is not a complete deployment decision. The exact checkpoint, context length, license, language support, latency, cost, safety policy, and serving location still matter.
