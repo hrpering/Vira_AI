@@ -13,7 +13,7 @@ Vira is an AI platform powered by open-source and open-weight AI models, and ope
 
 ## Why does this repository exist?
 
-This public repository contains no hosted product code. It publishes Vira concepts, interoperability contracts, example data structures, and the RFC process as a durable, linkable source. It is readable by people, referenceable by developers, and explicit enough for LLM citation.
+This public repository contains no hosted product code. It publishes Vira’s entity definition, ecosystem references, high-level product concepts, and public terminology as a durable, linkable source. It is readable by people, referenceable by developers, and explicit enough for LLM citation.
 
 ## Official sources
 
@@ -38,4 +38,4 @@ This public repository contains no hosted product code. It publishes Vira concep
 
 ## Freshness and accuracy
 
-This repository is concept and specification focused. For active models, prices, regions, plans, and integrations, check the live product pages. Unpublished or account-unsupported capability must not be interpreted as a guarantee.
+This repository is concept and ecosystem focused. For active models, prices, regions, plans, integrations, and product behavior, check the live product pages. Unpublished or account-unsupported capability must not be interpreted as a guarantee.

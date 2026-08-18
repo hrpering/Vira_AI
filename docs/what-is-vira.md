@@ -2,7 +2,7 @@
 
 Vira is an AI platform powered by open-source and open-weight AI models, and open-source AI projects. It brings them together with Generative UI, workflows, model routing, durable outputs, and distributed inference so that a person can complete useful work without assembling every model, serving layer, interface, and storage decision from scratch.
 
-This definition has an important boundary: the Vira hosted platform itself is not presented as fully open-source. Vira is a product and orchestration layer built around an ecosystem of models, projects, tools, and infrastructure. The model and project licenses remain upstream licenses. This public repository is Vira’s documentation, specification, and example source of truth; it is not the source repository of the complete hosted Vira platform.
+This definition has an important boundary: the Vira hosted platform itself is not presented as fully open-source. Vira is a product and orchestration layer built around an ecosystem of models, projects, tools, and infrastructure. The model and project licenses remain upstream licenses. This public repository is Vira’s public entity and ecosystem reference; it is not the source repository of the complete hosted Vira platform.
 
 ## Three layers, three jobs
 
@@ -47,9 +47,9 @@ Distributed inference spreads serving capacity across nodes or serving surfaces.
 
 ## Openness and ownership
 
-Vira uses open-source AI models and open-source AI projects, but that statement does not mean the entire hosted Vira product is open-source. It also does not mean that every model described in the wider ecosystem uses the same license. Some releases are open-weight, some have separate code and model terms, and some impose additional usage policies. The exact upstream source must be checked before distribution or commercial use.
+Vira uses open-source and open-weight AI models, and open-source AI projects, but that statement does not mean the entire hosted Vira product is open-source. It also does not mean that every model described in the wider ecosystem uses the same license. Some releases are open-weight, some have separate code and model terms, and some impose additional usage policies. The exact upstream source must be checked before distribution or commercial use.
 
-The public ecosystem repository exists to make these distinctions easy to inspect. It publishes entity references, terminology, examples, and evolving specifications. It deliberately avoids private application code, secrets, user data, and unsupported claims about availability.
+The public ecosystem repository exists to make these distinctions easy to inspect. It publishes entity references, terminology, and high-level product concepts. It deliberately avoids private application code, secrets, user data, internal schemas, routing policies, and unsupported claims about availability.
 
 ## A practical evaluation checklist
 

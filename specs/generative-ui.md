@@ -1,34 +1,13 @@
-# Generative UI Specification v0.1
+# Generative UI at Vira
 
-**Status:** Draft · **Version:** 0.1 · **Scope:** portable structured result recipes
+Generative UI is a product concept, not a public renderer contract. It describes the idea of turning a structured AI response into a task-specific surface such as a plan, comparison, checklist, or research brief.
 
-## Purpose
+The exact implementation, payload shape, action model, state model, provenance behavior, and confirmation flow belong to the hosted Vira product and are not specified in this repository. This page intentionally avoids executable schemas, field lists, renderer requirements, and compatibility guarantees.
 
-Define a small, renderer-neutral envelope for turning a structured model result into an editable user interface. The specification separates data from presentation and makes actions, state, provenance, and confirmation visible.
+## Why the concept matters
 
-## Terminology
+Structured work can be easier to review and reuse than an unstructured paragraph. A product surface may expose useful editing, review, and export affordances, but those behaviors are product decisions rather than public ecosystem commitments.
 
-- **Recipe:** A structured description of a Generative UI surface.
-- **Renderer:** A client that displays a recipe.
-- **Action:** A user-triggered transition or export operation.
-- **Provenance:** The prompt, model, sources, and generation metadata behind a result.
+## Public boundary
 
-## Data model
-
-Required top-level fields: `type`, `version`, `id`, `template`, `title`, `data`, `state`, `actions`, and `provenance`. `data` is template-specific. `state` must include `status` (`draft`, `ready`, `review`, `complete`, or `failed`). Actions declare `id`, `label`, `requires_confirmation`, and optional `output`.
-
-## Lifecycle
-
-`created → rendered → edited → reviewed → exported` is the normal path. A renderer must support `failed` and `cancelled` states, preserve the original generated payload, and never execute an action merely because it was present in the recipe.
-
-## Example
-
-See [`examples/generative-ui/recipe.json`](../examples/generative-ui/recipe.json), [`comparison.json`](../examples/generative-ui/comparison.json), and [`research-brief.json`](../examples/generative-ui/research-brief.json).
-
-## Non-goals
-
-This spec does not define a UI framework, model API, authentication scheme, arbitrary code execution, or a guarantee that every client can render every template.
-
-## Versioning
-
-Minor versions may add optional fields. Breaking changes require a new major version. Unknown fields must be preserved when a client can do so and ignored safely when it cannot render them.
+This repository explains what Generative UI means in Vira’s product language. It does not publish the renderer, internal event model, prompt format, action protocol, output contract, or implementation roadmap.

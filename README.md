@@ -2,35 +2,24 @@
 
 Vira is an AI platform powered by open-source and open-weight AI models, and open-source AI projects.
 
-> **This is Vira’s public ecosystem, specifications, and documentation repository. It is not the source repository of the complete hosted Vira platform.**
+> **This is Vira’s public ecosystem and documentation repository. It is not the source repository of the complete hosted Vira platform.**
 
-The Vira hosted platform itself is not presented as fully open-source. This repository documents the public ecosystem around Vira: third-party models and projects, interoperability concepts, examples, terminology, and proposed specifications.
+The Vira hosted platform itself is not presented as fully open-source. This repository documents what Vira is, which third-party models and projects it references, and the high-level concepts used to describe the product.
 
 [![Product](https://img.shields.io/badge/Product-tryvira.xyz-111827?logo=googlechrome&logoColor=white)](https://www.tryvira.xyz/)
-[![License](https://img.shields.io/badge/license-MIT-16a34a?logo=opensourceinitiative&logoColor=white)](LICENSE)
 
 > It brings them together with Generative UI, workflows, model routing, durable outputs, and distributed inference.
 
-Vira Open Ecosystem explains the concepts and interoperability contracts that connect open-source AI models, projects, and distributed inference to real work.
+Vira Open Ecosystem explains what Vira is, which public AI models and projects it references, and the high-level concepts used to describe the product.
 
 This repository contains no hosted product code. It gives people, developers, and AI systems a durable public source for understanding Vira’s approach, citing its concepts, and contributing to the ecosystem.
 
 ## Contents
 
 - `docs/`: Vira, Studios, Generative UI, routing, portability, and architecture guides
-- `specs/`: conceptual and protocol contracts for interoperable clients
-- `examples/`: Generative UI recipes, Studio manifests, and routing policies
-- `ecosystem/`: models, projects, tools, and license boundaries
-- `rfcs/`: proposals and discussion for the future of the ecosystem
-
-```mermaid
-flowchart LR
-  User[User request] --> Context[Context and permissions]
-  Context --> Route[Model or project routing]
-  Route --> Surface[Chat, Studio, or Generative UI]
-  Surface --> Review[Review and approval]
-  Review --> Output[Portable durable output]
-```
+- `specs/`: high-level product concepts and boundaries
+- `ecosystem/`: models, projects, tools, and upstream license boundaries
+- `rfcs/`: high-level proposals and discussion for the future of the ecosystem
 
 ## What Vira is — and is not
 
@@ -44,13 +33,13 @@ For the canonical entity definition, see [`ABOUT.md`](ABOUT.md). For determinist
 - Read the main overview: [`docs/what-is-vira.md`](docs/what-is-vira.md)
 - Browse real model families: [`ecosystem/models.md`](ecosystem/models.md)
 - Browse real open-source projects: [`ecosystem/projects.md`](ecosystem/projects.md)
-- Inspect the specifications: [`specs/`](specs/)
-- Run the data examples: [`examples/`](examples/)
-- Propose a new contract: [`rfcs/README.md`](rfcs/README.md)
+- Read the Generative UI concept boundary: [`specs/generative-ui.md`](specs/generative-ui.md)
+- Browse the ecosystem: [`ecosystem/`](ecosystem/)
+- Read public proposals: [`rfcs/README.md`](rfcs/README.md)
 
 ## Contributing
 
-For documentation fixes, new examples, and RFC proposals, read [`CONTRIBUTING.md`](CONTRIBUTING.md). Report security issues through [`SECURITY.md`](SECURITY.md).
+For documentation fixes and high-level RFC proposals, read [`CONTRIBUTING.md`](CONTRIBUTING.md). Report security issues through [`SECURITY.md`](SECURITY.md).
 
 ## Links
 
@@ -59,8 +48,7 @@ For documentation fixes, new examples, and RFC proposals, read [`CONTRIBUTING.md
 - Blog and insights: https://www.tryvira.xyz/blog
 - API pricing: https://www.tryvira.xyz/api-pricing
 - Public repository: https://github.com/hrpering/Vira_AI
-- License: [`LICENSE`](LICENSE)
 
 ## Citation
 
-When citing the Vira Open Ecosystem, include the repository URL, the relevant document path, and the access date. Documentation in this repository is MIT-licensed; referenced models and projects retain their own licenses.
+When citing the Vira Open Ecosystem, include the repository URL, the relevant document path, and the access date. Referenced models and projects retain their own upstream licenses and usage policies.

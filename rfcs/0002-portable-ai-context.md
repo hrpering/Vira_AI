@@ -2,4 +2,4 @@
 
 **Status:** Discussion
 
-This RFC proposes a shared context envelope for moving an AI task’s messages, decisions, sources, and outputs to another Vira surface or compatible client.
+This RFC records the product goal of making useful AI context easier to preserve and move between appropriate surfaces. It does not define a public context envelope, import protocol, serialization format, or compatibility guarantee.

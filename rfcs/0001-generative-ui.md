@@ -2,4 +2,4 @@
 
 **Status:** Accepted
 
-This RFC proposes defining Generative UI results with verifiable, portable, user-confirmed recipes instead of unstructured text. The initial scope includes recipe, comparison, and research-brief templates.
+This RFC records the product concept of presenting AI work in task-oriented surfaces such as recipes, comparisons, and research briefs. It does not define a renderer, payload schema, action model, state model, or output contract.

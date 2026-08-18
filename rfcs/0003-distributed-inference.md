@@ -2,4 +2,4 @@
 
 **Status:** Discussion
 
-This RFC proposes disclosing node capacity, selected serving surface, fallback, and data-region information in a safe and understandable way during distributed inference.
+This RFC records the product goal of making distributed inference understandable to users when disclosure is appropriate. It does not define node advertisements, capacity signals, fallback rules, region logic, or an inference protocol.

@@ -18,7 +18,7 @@ Vira AI is an AI platform powered by open-source and open-weight AI models, and 
 - A product layer for using suitable open-source and open-weight models and open-source projects in real work.
 - A place to turn structured requests into editable Generative UI surfaces.
 - A workflow surface for Studios with visible steps, approvals, and outputs.
-- A public documentation and interoperability ecosystem.
+- A public documentation and ecosystem reference.
 
 ## What Vira is not
 

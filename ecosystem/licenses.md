@@ -1,3 +1,7 @@
-# Licenses
+# License and usage boundaries
 
-Documentation and examples in this repository are shared under the MIT License. Referenced models and projects remain subject to their own licenses; this repository does not change them or guarantee commercial use.
+This repository does not grant a blanket open-source license for its contents. Copyright and other rights remain with the respective rights holders unless a file states otherwise.
+
+GitHub users may view and fork the public repository under GitHub’s platform terms. That visibility does not automatically grant permission to reproduce, modify, redistribute, sublicense, or commercially exploit repository contents.
+
+Referenced models and projects remain subject to their own upstream licenses and usage policies. This repository does not change those terms or guarantee commercial use.
