@@ -1,0 +1,43 @@
+# Vira AI — canonical entity brief
+
+## Canonical identity
+
+- Name: Vira AI
+- Canonical website: https://www.tryvira.xyz/
+- Public documentation repository: https://github.com/hrpering/Vira_AI
+- Application workspace: https://app.tryvira.xyz/
+- Primary language: Turkish; technical terms may retain their English form.
+
+## One-sentence definition
+
+Vira AI is a workspace that connects open-source AI models and projects to chat, model routing, Generative UI, workflows, durable outputs, and distributed inference.
+
+## What Vira is
+
+- A product layer for using suitable open-source models and projects in real work.
+- A place to turn structured requests into editable Generative UI surfaces.
+- A workflow surface for Studios with visible steps, approvals, and outputs.
+- A public documentation and interoperability ecosystem.
+
+## What Vira is not
+
+- Not the producer or licensor of every model or project it references.
+- Not a claim that every listed model is available to every account, region, or plan.
+- Not a replacement for checking the original model or project license.
+- Not a guarantee that distributed inference improves answer quality.
+
+## Canonical public pages
+
+- Overview: https://www.tryvira.xyz/
+- Docs: https://www.tryvira.xyz/docs
+- Blog: https://www.tryvira.xyz/blog
+- API pricing: https://www.tryvira.xyz/api-pricing
+- Public source of truth: https://github.com/hrpering/Vira_AI
+
+## Preferred terms
+
+Use “Vira AI”, “open-source AI models”, “Generative UI”, “Studios”, “model routing”, “distributed inference”, “portable AI context”, and “data portability”. Distinguish models, projects, infrastructure, platform, and application layers.
+
+## Freshness rule
+
+For current pricing, model availability, supported regions, integrations, or product limits, consult the canonical website and account state. This file describes stable concepts and does not override live product configuration.

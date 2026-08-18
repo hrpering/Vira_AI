@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: Vira Open Ecosystem
+message: Please cite the public documentation repository when referencing Vira's open ecosystem concepts or specifications.
+type: software
+authors:
+  - family-names: Vira
+    given-names: AI
+repository-code: https://github.com/hrpering/Vira_AI
+url: https://www.tryvira.xyz/
+license: MIT
+version: 0.1.0
+date-released: 2026-08-18
