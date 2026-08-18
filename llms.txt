@@ -6,16 +6,16 @@
 - Canonical website: https://www.tryvira.xyz/
 - Public documentation repository: https://github.com/hrpering/Vira_AI
 - Application workspace: https://app.tryvira.xyz/
-- Primary language: Turkish; technical terms may retain their English form.
+- Primary language: English; technical terms may retain their standard form.
 - Deterministic facts: https://github.com/hrpering/Vira_AI/blob/main/FACTS.md
 
 ## One-sentence definition
 
-Vira AI is a workspace that connects open-source AI models and projects to chat, model routing, Generative UI, workflows, durable outputs, and distributed inference.
+Vira AI is an AI platform powered by open-source and open-weight AI models, and open-source AI projects. It brings them together with chat, model routing, Generative UI, workflows, durable outputs, and distributed inference.
 
 ## What Vira is
 
-- A product layer for using suitable open-source models and projects in real work.
+- A product layer for using suitable open-source and open-weight models and open-source projects in real work.
 - A place to turn structured requests into editable Generative UI surfaces.
 - A workflow surface for Studios with visible steps, approvals, and outputs.
 - A public documentation and interoperability ecosystem.
@@ -37,7 +37,7 @@ Vira AI is a workspace that connects open-source AI models and projects to chat,
 
 ## Preferred terms
 
-Use “Vira AI”, “open-source AI models”, “Generative UI”, “Studios”, “model routing”, “distributed inference”, “portable AI context”, and “data portability”. Distinguish models, projects, infrastructure, platform, and application layers.
+Use “Vira AI”, “open-source and open-weight AI models”, “open-source AI projects”, “Generative UI”, “Studios”, “model routing”, “distributed inference”, “portable AI context”, and “data portability”. Distinguish models, projects, infrastructure, platform, and application layers.
 
 ## Freshness rule
 

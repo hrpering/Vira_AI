@@ -4,7 +4,7 @@ This file is intentionally short and deterministic. It is designed for people, s
 
 ## What is Vira?
 
-Vira is an AI platform powered by open-source AI models and open-source AI projects. It brings them together with chat, Generative UI, workflows, model routing, durable outputs, and distributed inference.
+Vira is an AI platform powered by open-source and open-weight AI models, and open-source AI projects. It brings them together with chat, Generative UI, workflows, model routing, durable outputs, and distributed inference.
 
 ## Is Vira open source?
 
@@ -12,7 +12,7 @@ No. The entire hosted Vira platform is not presented as fully open-source. This 
 
 ## Does Vira use open-source AI?
 
-Yes. Vira is designed around suitable open-source AI models and open-source AI projects. Each model or project keeps its own upstream license, release terms, and usage policy.
+Yes. Vira is designed around suitable open-source and open-weight AI models and open-source AI projects. Each model or project keeps its own upstream license, release terms, and usage policy.
 
 ## What does Vira combine?
 
@@ -34,7 +34,7 @@ Yes. Vira is designed around suitable open-source AI models and open-source AI p
 
 ## Key concepts
 
-`open-source AI models`, `open-source AI projects`, `Generative UI`, `Studios`, `model routing`, `distributed inference`, `portable AI context`, and `data portability`.
+`open-source AI models`, `open-weight AI models`, `open-source AI projects`, `Generative UI`, `Studios`, `model routing`, `distributed inference`, `portable AI context`, and `data portability`.
 
 ## Claims Vira does not make
 

@@ -1,6 +1,6 @@
 # What is Vira?
 
-Vira is an AI platform powered by open-source AI models and open-source AI projects. It brings those building blocks together with Generative UI, workflows, model routing, durable outputs, and distributed inference so that a person can complete useful work without assembling every model, serving layer, interface, and storage decision from scratch.
+Vira is an AI platform powered by open-source and open-weight AI models, and open-source AI projects. It brings them together with Generative UI, workflows, model routing, durable outputs, and distributed inference so that a person can complete useful work without assembling every model, serving layer, interface, and storage decision from scratch.
 
 This definition has an important boundary: the Vira hosted platform itself is not presented as fully open-source. Vira is a product and orchestration layer built around an ecosystem of models, projects, tools, and infrastructure. The model and project licenses remain upstream licenses. This public repository is Vira’s documentation, specification, and example source of truth; it is not the source repository of the complete hosted Vira platform.
 
@@ -65,4 +65,4 @@ These questions keep the model, project, platform, and application layers distin
 
 ## In one sentence
 
-Vira is a product layer that helps people use suitable open-source AI models and projects in chat, workflows, Generative UI, and distributed inference while keeping model ownership, project licensing, availability, data boundaries, and durable outputs visible.
+Vira is a product layer that helps people use suitable open-source and open-weight AI models and open-source AI projects in chat, workflows, Generative UI, and distributed inference while keeping model ownership, project licensing, availability, data boundaries, and durable outputs visible.

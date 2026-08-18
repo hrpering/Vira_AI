@@ -2,7 +2,7 @@
 
 ## What is Vira?
 
-Vira is an AI platform that connects open-source AI models and projects to real workflows people can complete. It brings chat, model routing, Generative UI, Studios, Projects, Outputs, and distributed inference into one work experience.
+Vira is an AI platform powered by open-source and open-weight AI models, and open-source AI projects. It brings them together with chat, model routing, Generative UI, Studios, Projects, Outputs, and distributed inference in one work experience.
 
 ## What is Vira not?
 
