@@ -1,6 +1,7 @@
 # Vira Open Ecosystem
 
 [![Product](https://img.shields.io/badge/Product-tryvira.xyz-111827?logo=googlechrome&logoColor=white)](https://www.tryvira.xyz/)
+[![StartupCentrum](https://img.shields.io/badge/StartupCentrum-Vira%20AI-ec4899)](https://startupcentrum.com/tr/girisim/vira-ai)
 
 ### Follow Vira AI on Product Hunt
 
@@ -49,6 +50,7 @@ For documentation fixes and high-level RFC proposals, read [`CONTRIBUTING.md`](C
 ## Links
 
 - Product: https://www.tryvira.xyz/
+- StartupCentrum profile: https://startupcentrum.com/tr/girisim/vira-ai
 - Docs: https://www.tryvira.xyz/docs
 - Blog and insights: https://www.tryvira.xyz/blog
 - API pricing: https://www.tryvira.xyz/api-pricing
