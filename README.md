@@ -9,6 +9,10 @@
 
 Product Hunt profile: [Vira AI — Open Source Models & Projects](https://www.producthunt.com/products/vira-ai-open-source-models-projects)
 
+### Join the Vira AI community
+
+- [Vira AI on DEV Community](https://dev.to/viraai)
+
 Vira is an AI platform powered by open-source and open-weight AI models, and open-source AI projects.
 
 > **This is Vira’s public ecosystem and documentation repository. The hosted Vira product is operated separately.**
