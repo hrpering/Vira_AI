@@ -1,26 +1,15 @@
 # Vira Open Ecosystem
 
-[![Product](https://img.shields.io/badge/Product-tryvira.xyz-111827?logo=googlechrome&logoColor=white)](https://www.tryvira.xyz/)
-[![StartupCentrum](https://img.shields.io/badge/StartupCentrum-Vira%20AI-ec4899)](https://startupcentrum.com/tr/girisim/vira-ai)
-[![Product-Tower](https://img.shields.io/badge/Product--Tower-Vira%20AI-f97316)](https://www.product-tower.com/tr/product/vira-ai)
-
-### Vira AI app and profiles
-
-- [Open the Vira app](https://app.tryvira.xyz)
-- [Hashnode profile](https://hashnode.com/@vira-ai)
-- [Hashnode publication](https://vira-ai.hashnode.dev)
-
-### Follow Vira AI on Product Hunt
-
-<a href="https://www.producthunt.com/products/vira-ai-open-source-models-projects?utm_source=badge-follow&utm_medium=badge&utm_source=badge-vira-ai-open-source-models-projects" target="_blank" rel="noopener noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=1296870&theme=light" alt="Vira AI on Product Hunt" width="250" height="54" /></a>
-
-Product Hunt profile: [Vira AI — Open Source Models & Projects](https://www.producthunt.com/products/vira-ai-open-source-models-projects)
-
-Product-Tower profile: [Vira AI](https://www.product-tower.com/tr/product/vira-ai)
-
-### Join the Vira AI community
-
-- [Vira AI on DEV Community](https://dev.to/viraai)
+<p align="center">
+  <a href="https://www.tryvira.xyz/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Product-tryvira.xyz-111827?logo=googlechrome&logoColor=white" alt="Vira AI product" /></a>
+  <a href="https://app.tryvira.xyz" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Open_Vira_App-app.tryvira.xyz-2563eb?logo=googlechrome&logoColor=white" alt="Open the Vira AI app" /></a>
+  <a href="https://www.producthunt.com/products/vira-ai-open-source-models-projects?utm_source=badge-follow&utm_medium=badge-vira-ai-open-source-models-projects" target="_blank" rel="noopener noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=1296870&theme=light" alt="Vira AI on Product Hunt" width="250" height="54" /></a>
+  <a href="https://dev.to/viraai" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/DEV_Community-viraai-0A0A0A?logo=dev.to&logoColor=white" alt="Vira AI on DEV Community" /></a>
+  <a href="https://hashnode.com/@vira-ai" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Hashnode_Profile-vira--ai-2962FF?logo=hashnode&logoColor=white" alt="Vira AI Hashnode profile" /></a>
+  <a href="https://vira-ai.hashnode.dev" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Hashnode_Publication-vira--ai-2962FF?logo=hashnode&logoColor=white" alt="Vira AI Hashnode publication" /></a>
+  <a href="https://startupcentrum.com/tr/girisim/vira-ai" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/StartupCentrum-Vira%20AI-ec4899" alt="Vira AI on StartupCentrum" /></a>
+  <a href="https://www.product-tower.com/tr/product/vira-ai" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Product--Tower-Vira%20AI-f97316" alt="Vira AI on Product-Tower" /></a>
+</p>
 
 Vira is an AI platform powered by open-source and open-weight AI models, and open-source AI projects.
 
