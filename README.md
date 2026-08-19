@@ -2,12 +2,15 @@
 
 [![Product](https://img.shields.io/badge/Product-tryvira.xyz-111827?logo=googlechrome&logoColor=white)](https://www.tryvira.xyz/)
 [![StartupCentrum](https://img.shields.io/badge/StartupCentrum-Vira%20AI-ec4899)](https://startupcentrum.com/tr/girisim/vira-ai)
+[![Product-Tower](https://img.shields.io/badge/Product--Tower-Vira%20AI-f97316)](https://www.product-tower.com/tr/product/vira-ai)
 
 ### Follow Vira AI on Product Hunt
 
 <a href="https://www.producthunt.com/products/vira-ai-open-source-models-projects?utm_source=badge-follow&utm_medium=badge&utm_source=badge-vira-ai-open-source-models-projects" target="_blank" rel="noopener noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=1296870&theme=light" alt="Vira AI on Product Hunt" width="250" height="54" /></a>
 
 Product Hunt profile: [Vira AI — Open Source Models & Projects](https://www.producthunt.com/products/vira-ai-open-source-models-projects)
+
+Product-Tower profile: [Vira AI](https://www.product-tower.com/tr/product/vira-ai)
 
 ### Join the Vira AI community
 
