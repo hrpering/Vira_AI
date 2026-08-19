@@ -1,5 +1,7 @@
 [![Product](https://img.shields.io/badge/Product-tryvira.xyz-111827?logo=googlechrome&logoColor=white)](https://www.tryvira.xyz/)
 
+<a href="https://www.producthunt.com/products/vira-ai-open-source-models-projects?utm_source=badge-follow&utm_medium=badge&utm_source=badge-vira-ai-open-source-models-projects" target="_blank" rel="noopener noreferrer"><img src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=1296870&theme=light" alt="Vira AI on Product Hunt" width="250" height="54" /></a>
+
 # Vira Open Ecosystem
 
 Vira is an AI platform powered by open-source and open-weight AI models, and open-source AI projects.
